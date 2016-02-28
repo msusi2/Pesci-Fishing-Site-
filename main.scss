@@ -7,12 +7,29 @@ $white: #f6f8f9;
 $paragraphFont: 'Lato', sans-serif;
 $titleFont: 'Lato', sans-serif;
 
+body {
+	background-color: $white;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: $darkGrey;
 }
 
+.navbar-default .navbar-toggle {
+	border-color: $lightGrey;
+}
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: $lightGrey;
+}
+
+.navbar-default {
+	background-color: $white;
+	border: none;
+}
+
+#mainNav ul li a {
+	font-faimly: $titleFont;
 }
 
 h2 {
@@ -23,20 +40,13 @@ p {
 text-align: center; 
 }
 
-
-
-
-
-
-
 /*-------footer-----*/
 
 footer {
 text-align: center;
-background-color: #efefef;
 padding: 5px;
 padding-top: 10px;
-font-family: "Lato";
+font-family: $titleFont;
 }
 
 #footerAdress {
@@ -48,10 +58,8 @@ font-family: "Lato";
 	max-height: 35px;
 	min-height: 20px;
 	margin-top: 5px;
-
 }
 
 #twitter {
-margin-left: 3px;
+	margin-left: 3px;
 }
-
