@@ -1,0 +1,57 @@
+/*---SASS Variables---*/
+$darkGrey: #58585a;
+$lightGrey: #a4a4a5;
+$darkBlue: #83d3eb;
+$lightBlue: #bee6f3;
+$white: #f6f8f9;
+$paragraphFont: 'Lato', sans-serif;
+$titleFont: 'Lato', sans-serif;
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: $darkGrey;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: $lightGrey;
+}
+
+h2 {
+text-align: center;
+}
+
+p {
+text-align: center; 
+}
+
+
+
+
+
+
+
+/*-------footer-----*/
+
+footer {
+text-align: center;
+background-color: #efefef;
+padding: 5px;
+padding-top: 10px;
+font-family: "Lato";
+}
+
+#footerAdress {
+	margin-top: -10px;
+}
+
+.socialMediaIcon
+{
+	max-height: 35px;
+	min-height: 20px;
+	margin-top: 5px;
+
+}
+
+#twitter {
+margin-left: 3px;
+}
+
