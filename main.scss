@@ -14,3 +14,44 @@ $titleFont: 'Lato', sans-serif;
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: $lightGrey;
 }
+
+h2 {
+text-align: center;
+}
+
+p {
+text-align: center; 
+}
+
+
+
+
+
+
+
+/*-------footer-----*/
+
+footer {
+text-align: center;
+background-color: #efefef;
+padding: 5px;
+padding-top: 10px;
+font-family: "Lato";
+}
+
+#footerAdress {
+	margin-top: -10px;
+}
+
+.socialMediaIcon
+{
+	max-height: 35px;
+	min-height: 20px;
+	margin-top: 5px;
+
+}
+
+#twitter {
+margin-left: 3px;
+}
+
