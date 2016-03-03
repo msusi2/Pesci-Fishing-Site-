@@ -1,4 +1,4 @@
-/*---SASS Variables---*/
+/*---Sass Variables---*/
 $darkGrey: #58585a;
 $lightGrey: #a4a4a5;
 $darkBlue: #83d3eb;
@@ -11,6 +11,11 @@ body {
 	background-color: $white;
 }
 
+.boxHelper {
+	background-color: $lightBlue;
+}
+
+/*-----navigation-----*/
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: $darkGrey;
 }
@@ -26,6 +31,15 @@ body {
 .navbar-default {
 	background-color: $white;
 	border: none;
+}
+
+/*-----about------*/
+h3 {
+	text-align: center;
+}
+
+.aboutCon p {
+  padding-top: 100px;
 }
 
 #mainNav ul li a {
