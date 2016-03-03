@@ -1,4 +1,3 @@
-/*---Sass Variables---*/
 $darkGrey: #58585a;
 $lightGrey: #a4a4a5;
 $darkBlue: #83d3eb;
@@ -11,9 +10,6 @@ body {
 	background-color: $white;
 }
 
-.boxHelper {
-	background-color: $lightBlue;
-}
 
 /*-----navigation-----*/
 .navbar-default .navbar-toggle .icon-bar {
@@ -33,14 +29,7 @@ body {
 	border: none;
 }
 
-/*-----about------*/
-h3 {
-	text-align: center;
-}
 
-.aboutCon p {
-  padding-top: 100px;
-}
 
 #mainNav ul li a {
 	font-faimly: $titleFont;
@@ -52,6 +41,35 @@ text-align: center;
 
 p {
 text-align: center; 
+}
+
+/*-----about------*/
+
+#aboutCon p {
+  padding-top: 100px;
+}
+
+#aboutCon {
+	background: -webkit-linear-gradient(#ffffff, #bebfc0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #bebfc0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #bebfc0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #bebfc0);
+}
+
+#email {
+	margin-top: 20px;
+}
+
+#message {
+	margin-top: 20px;
+}
+
+/*----news/contact---*/
+#newsCon {
+	background: -webkit-linear-gradient(#ffffff, #bebfc0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #bebfc0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #bebfc0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #bebfc0);
 }
 
 /*-------footer-----*/
