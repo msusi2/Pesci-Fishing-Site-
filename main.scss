@@ -1,4 +1,3 @@
-/*---SASS Variables---*/
 $darkGrey: #58585a;
 $lightGrey: #a4a4a5;
 $darkBlue: #83d3eb;
@@ -40,6 +39,144 @@ p {
 text-align: center; 
 }
 
+
+
+
+
+
+
+
+/*------------Mobile Features----------------------*/
+
+
+#mobileFeatures h2
+{
+	color: $darkGrey;
+	margin-left: -20px;
+	margin-top: 10px;
+	font-family: $titleFont;
+	
+	
+
+}
+
+#mobileFeaturesList h3
+{
+	text-align: left;
+	font-size: 1.4em;
+	color: black;
+}
+	
+
+#mobileReelImage
+{
+	margin-left: -15px;
+}
+
+#mobileFeaturesList
+{
+	color: #5e5e5e;
+}
+
+
+#mobileFeatures 
+{
+	
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+1,b2b2b2+99 */
+
+background: #ededed; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #ededed 1%, #b2b2b2 99%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #ededed 1%,#b2b2b2 99%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #ededed 1%,#b2b2b2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#b2b2b2',GradientType=0 ); /* IE6-9 */
+
+
+
+		border-top: solid 1px $darkGrey;
+		border-bottom: solid 1px $darkGrey;
+}
+
+
+
+
+
+
+
+
+#reelImage
+{
+	float: right;
+	margin-right: -30px;
+	margin-top: 30px;
+}
+
+
+#featuresList 
+{
+	text-align: left;
+	margin-top: 60px;
+}
+
+#featuresList h3
+{
+	margin-top: 70px;
+	font-size: 1.2em;
+	font-family: $titleFont;
+	font-weight: bold;
+	line-height: 20px;
+	margin-left: 12px;
+}
+
+#featuresList ul li
+{
+	margin-left: -25px;
+}
+
+
+#features h2
+{
+float: left;
+
+
+}
+
+#features 
+{
+	background: #ededed; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #ededed 1%, #b2b2b2 99%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #ededed 1%,#b2b2b2 99%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #ededed 1%,#b2b2b2 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#b2b2b2',GradientType=0 ); /* IE6-9 */
+
+
+
+		border-top: solid 1px $darkGrey;
+		border-bottom: solid 1px $darkGrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------footer-----*/
 
 footer {
@@ -47,6 +184,8 @@ text-align: center;
 padding: 5px;
 padding-top: 10px;
 font-family: $titleFont;
+border-top: solid 1px $lightGrey;
+margin-top: 10px;
 }
 
 #footerAdress {
@@ -63,3 +202,11 @@ font-family: $titleFont;
 #twitter {
 	margin-left: 3px;
 }
+
+.footerLogo {
+max-height: 120px;
+min-height: 100px;
+
+}
+
+
