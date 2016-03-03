@@ -77,6 +77,11 @@ a {
 	font-style: italic;
 }
 
+/*-----fisherman photo-----*/
+#fishermanMobile, #fishermanTablet, #fishermanDesk {
+	width: 100%;
+}
+
 /*-------shop-------*/
 .shopPic {
 	background-image: url(../images/fishing_crop.jpg);
@@ -151,26 +156,46 @@ a {
 	margin-top: 20px;
 }
 
-/*--------Mobile Features--------*/
-#features h2 {
+/*--------Features--------*/
+#featuresCon h2 {
 	color: $darkGrey;
-	margin-left: -20px;
 	margin-top: 10px;
 	font-family: $titleFont;
 }
 
-#featuresList h3 {
-	text-align: left;
+#mobileFeaturesList h3 {
 	font-size: 1.4em;
-	color: black;
 }
 
-#reelImage {
-	margin-left: -15px;
+.mobileReelImage {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
 }
 
-#featuresList {
-	color: #5e5e5e;
+.mobileFeaturesList {
+	margin-left: 5%;
+}
+
+.mobileReelImage {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.reelImage {
+	float: right;
+	display: block;
+	width: 45%;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	max-width: 425px;
+}
+
+.featuresList {
+	float: left;
+	width: 45%;
+	padding-left: 5%
 }
 
 #featuresCon {
@@ -178,12 +203,6 @@ background: -webkit-linear-gradient(#f6f8f9, #bebfc0); /* For Safari 5.1 to 6.0 
 background: -o-linear-gradient(#f6f8f9, #bebfc0); /* For Opera 11.1 to 12.0 */
 background: -moz-linear-gradient(#f6f8f9, #bebfc0); /* For Firefox 3.6 to 15 */
 background: linear-gradient(#f6f8f9, #bebfc0);
-}
-
-#reelImage {
-	display: block;
-	width: 70%;
-	margin-left: 15%;
 }
 
 /*-------footer-----*/
