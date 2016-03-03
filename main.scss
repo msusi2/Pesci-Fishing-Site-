@@ -5,6 +5,7 @@ $darkBlue: #83d3eb;
 $lightBlue: #bee6f3;
 $white: #f6f8f9;
 $paragraphFont: 'Lato', sans-serif;
+$titleFont: 'Lato', sans-serif;
 
 body {
 	background-color: $white;
@@ -150,12 +151,49 @@ a {
 	margin-top: 20px;
 }
 
+/*--------Mobile Features--------*/
+#features h2 {
+	color: $darkGrey;
+	margin-left: -20px;
+	margin-top: 10px;
+	font-family: $titleFont;
+}
+
+#featuresList h3 {
+	text-align: left;
+	font-size: 1.4em;
+	color: black;
+}
+
+#reelImage {
+	margin-left: -15px;
+}
+
+#featuresList {
+	color: #5e5e5e;
+}
+
+#featuresCon {
+background: -webkit-linear-gradient(#f6f8f9, #bebfc0); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#f6f8f9, #bebfc0); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#f6f8f9, #bebfc0); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#f6f8f9, #bebfc0);
+}
+
+#reelImage {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+}
+
 /*-------footer-----*/
+
 footer {
 text-align: center;
 padding: 5px;
 padding-top: 10px;
-font-family: $paragraphFont;
+font-family: $titleFont;
+margin-top: 10px;
 }
 
 #footerAdress {
@@ -171,4 +209,10 @@ font-family: $paragraphFont;
 
 #twitter {
 	margin-left: 3px;
+}
+
+.footerLogo {
+max-height: 120px;
+min-height: 100px;
+
 }
