@@ -13,10 +13,12 @@
   <body>
 
 <header>
+  <a href="#"><img src="images/icons/shopping_cart.svg" alt="Shopping Cart" class="hidden-xs headerShoppingCart"></a>
     <img src="images/logo.svg" alt="logo" id="headerLogo" class="hidden-xs">
       <nav class="navbar navbar-default">
         <div class="container">
           <img src="images/logo.svg" alt="logo" id="mobileHeaderLogo" class="visible-xs">
+          <a href="#"><img src="images/icons/shopping_cart.svg" alt="Shopping Cart" class="visible-xs mobileHeaderShoppingCart"></a>
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
               <span class="sr-only">Toggle Navigation</span>
@@ -57,15 +59,32 @@
 
       <div class="buttonCon">
 
-        <a href="#"><img src="images/add_to_cart.svg" alt="Add to Cart"></a>
-        <a href="#"><img src="images/online_store.svg" alt="PESCI Online Store"></a>
-        <a href="#"><img src="images/local_retailer.svg" alt="Find a Local Retailer"></a>
+        <div class="shopButtonOutside">
+          <a href="#"><div class="shopButtonInside">
+            <h1>ADD TO CART</h1>
+            <img src="images/icons/shopping_cart.svg" alt="Shopping Cart">
+          </div></a>
+        </div>
 
-      </div>
+        <div class="shopButtonOutside2">
+          <a href="#"><div class="shopButtonInside">
+            <h1>PESCI ONLINE STORE</h1>
+            <img src="images/logo.svg" alt="PESCI">
+          </div></a>
+        </div>
 
-    </div>
-  </div>
-</div>
+        <div class="shopButtonOutside2">
+          <a href="#"><div class="shopButtonInside">
+            <h1>FIND A LOCAL RETAILER</h1>
+            <img src="images/icons/google_maps.svg" alt="Local Retailers">
+          </div></a>
+        </div>
+
+      </div><!--end buttonCon-->
+
+    </div><!--end shopPic-->
+  </div><!--end row-->
+</div><!--end container-->
 <!--End Shop-->
     
 
