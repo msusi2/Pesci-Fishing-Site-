@@ -1,19 +1,22 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>PESCI</title>
+    <title>Welcome To PESCI</title>
    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    
+
+<header>
+    <img src="images/logo.svg" alt="logo" id="headerLogo" class="hidden-xs">
       <nav class="navbar navbar-default">
         <div class="container">
+          <img src="images/logo.svg" alt="logo" id="mobileHeaderLogo" class="visible-xs">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
               <span class="sr-only">Toggle Navigation</span>
@@ -22,9 +25,9 @@
               <span class="icon-bar"></span>
             </button>
           </div>
-
+          
           <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
               <li><a href="#">About</a></li>
               <li><a href="#">Features</a></li>
               <li><a href="#">Shop</a></li>
@@ -32,13 +35,41 @@
               <li><a href="#">Newsletter</a></li>
             </ul>
           </div>
-
         </div>
       </nav>
+</header>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<div class="container-fluid">
+  <div class="row">
+    <div class="lakePic">
+        <h1 id="seriousFishing">BUILT FOR SERIOUS FISHING</h1>
+  </div>
+</div>
+    
+    
+
+
+  <footer>
+      <div class="col-xs-6 col-md-4">
+          <p> 1-800-TOP-REELS </p>
+          <p id="footerAdress"> 667 Monofilament Dr. </p>
+        </div>
+        
+        <div class="col-xs-6 col-md-4" id="mobileSocialMedia">
+          <h2 class="hidden"> Follow Us: </h2>
+          <a href="https://www.facebook.com" target="_blank"><img src="images/icons/facebook.svg" class="socialMediaIcon" alt="facebook" id="facebook"></a>
+          <a href="https://twitter.com" target="_blank"><img src="images/icons/twitter.svg" class="socialMediaIcon" alt="twitter" id="twitter"></a>
+          <a href="https://www.pinterest.com" target="_blank"><img src="images/icons/pinterest.svg" class="socialMediaIcon" alt="pinterest" id="pinterest"></a>
+        </div>
+        
+         <div class="col-xs-12">
+          <p class="allRights">PESCI 2016. All Rights Reserved.</p>
+        </div>
+  </footer>
+ 
+ 
+    
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </html>
