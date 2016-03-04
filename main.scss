@@ -7,51 +7,388 @@ $white: #f6f8f9;
 $paragraphFont: 'Lato', sans-serif;
 $titleFont: 'Lato', sans-serif;
 
+/*----General-----*/
+body {
+	background-color: $white;
+	font-family: $paragraphFont;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+	color: $darkGrey;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $darkGrey;
+}
+
+label {
+	font-weight: 300;
+}
+
+/*-----Header-------*/
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: $darkGrey;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: $lightGrey;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: $lightGrey;
 }
 
-h2 {
-text-align: center;
+.navbar-default {
+	background-color: $white;
+	border: none;
 }
 
-p {
-text-align: center; 
+#mobileHeaderLogo {
+	width: 40px;
+	margin-top: 8px;
+	float: left;
+	padding-bottom: 5px;
 }
 
+#headerLogo {
+	max-width: 5%;
+	display: block;
+	padding-top: 10px;
+	margin: 0 auto;
+}
 
+.mobileHeaderShoppingCart {
+	height: 36px;
+	margin-top: 8px;
+	margin-right: 10px;
+	float: right;
+}
 
+.headerShoppingCart {
+	width: 40px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
 
+.lakePic {
+	background-image: url(../images/landscape-mountains-nature-clouds.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: -40px;
+}
 
+.seriousFishing {
+	color: $white;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px #232323;
+	font-style: italic;
+}
 
+/*-----welcome------*/
+#aboutCon p {
+  text-indent: 30px;
+}
+
+#aboutCon {
+	background: -webkit-linear-gradient(#f6f8f9, #bebfc0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f6f8f9, #bebfc0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f6f8f9, #bebfc0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f6f8f9, #bebfc0);
+}
+
+#aboutLogo {
+	width: 125px;
+	margin-left: 25%;
+	padding-bottom: 3%;
+}
+
+/*-----fisherman photo-----*/
+.fishermanMobile, .fishermanTablet, .fishermanDesk {
+	width: 100%;
+}
+
+/*-------shop-------*/
+.shopCon {
+	margin-top: -30px;
+}
+
+.shopPic {
+	background-image: url(../images/fishing_crop.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 2%;
+}
+
+.shopTitle {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.buttonCon {
+	width: 100%;
+}
+
+.buttonCon img {
+	width: 20%;
+	margin-left: 10%;
+	margin-bottom: 16px;
+}
+
+.shopButtonOutside {
+	width: 20%;
+	padding-bottom: 20%;
+	border: solid 2px $darkBlue;
+	position: relative;
+	margin-left: 15%;
+	display: inline-block;
+}
+
+.shopButtonOutside2 {
+	width: 20%;
+	padding-bottom: 20%;
+	border: solid 2px $darkBlue;
+	position: relative;
+	margin-left: 5%;
+	display: inline-block;
+}
+
+.shopButtonInside {
+	position: absolute;
+	height: 70%;
+	width: 70%;
+	margin: 15%;
+	background-color: rgba(255,255,255,0.8);
+	overflow: hidden;
+}
+
+.shopButtonOutside:hover, .shopButtonOutside2:hover {
+	background-color: rgba(255,255,255,0.3);
+	border: solid 2px $lightBlue;
+}
+
+.shopButtonInside h1 {
+	text-align: center;
+	font-size: 14pt;
+	margin-top: 2%;
+}
+
+#addToCart {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 14%;
+}
+
+#onlineStore, #googleMaps {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+
+/*-----gallery------*/
+#photo-gallery {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*--------Features--------*/
+#featuresCon h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mobileReelImage {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+}
+
+.mobileFeaturesList {
+	margin-left: 3%;
+}
+
+.mobileFeaturesList li:last-child {
+	padding-bottom: 20px;
+}
+
+.mobileReelImage {
+	display: block;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.reelImage {
+	float: right;
+	width: 45%;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	max-width: 400px;
+}
+
+.featuresList {
+	float: left;
+	width: 45%;
+	padding-left: 5%
+}
+
+#featuresCon {
+background: -webkit-linear-gradient(#f6f8f9, #bebfc0); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#f6f8f9, #bebfc0); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#f6f8f9, #bebfc0); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#f6f8f9, #bebfc0);
+}
+
+/*------Contact------*/
+.newsletter p {
+	text-indent: 30px;
+}
+
+#email {
+	margin-top: 10px;
+	width: 100%;
+}
+
+#name {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#message {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 80px;
+}
+
+#submit {
+	float: right;
+	margin-bottom: 10px;
+	border: solid 1px $darkBlue;
+	background-color: $white;
+	border-radius: 5px;
+}
+
+#submit:hover {
+	background-color: $lightBlue;
+}
+
+#newsCon {
+	background: -webkit-linear-gradient(#f6f8f9, #bebfc0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#f6f8f9, #bebfc0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#f6f8f9, #bebfc0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#f6f8f9, #bebfc0);
+}
 
 /*-------footer-----*/
-
 footer {
-text-align: center;
-background-color: #efefef;
-padding: 5px;
-padding-top: 10px;
-font-family: "Lato";
+	text-align: center;
+	padding: 5px;
+	padding-top: 10px;
+	font-family: $titleFont;
+	margin-top: 10px;
 }
 
 #footerAdress {
 	margin-top: -10px;
 }
 
-.socialMediaIcon
-{
+.socialMediaIcon {
 	max-height: 35px;
 	min-height: 20px;
 	margin-top: 5px;
-
 }
 
 #twitter {
-margin-left: 3px;
+	margin-left: 3px;
 }
 
+.footerLogo {
+	max-height: 120px;
+	min-height: 100px;
+}
+
+/*-----Media Queries------*/
+@media (max-width: 560px) {
+
+	.seriousFishing {
+		color: $white;
+		font-size: 15pt;
+		padding-top: 18%;
+		padding-bottom: 18%;
+		text-align: center;
+		font-weight: 700;
+		text-shadow: 2px 2px 2px #232323;
+		font-style: italic;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.address, .socialMediaCon {
+		margin-top: 50px;
+	}
+
+	#mainNav ul li a {
+	font-size: 15pt;
+	margin-right: 20px;
+	}
+
+	#mainNav ul {
+		margin-left: 8.4%;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.shopButtonInside h1 {
+		display: none;
+	}
+
+	#addToCart, #onlineStore, #googleMaps {
+		margin-top: 30%;
+	}
+}
+
+@media (min-width: 992px) {
+
+	#mainNav ul {
+		margin-left: 18.4%;
+	}	
+}
+
+@media (min-width: 1200px) {
+
+	#mainNav ul {
+		margin-left: 24%;
+	}	
+}
+
+@media (max-width: 550px) {
+
+	.shopButtonInside h1 {
+		text-transform: Capitalize;
+	}
+}
+
+@media (max-width: 1080px) {
+
+	#addToCart, #onlineStore, #googleMaps {
+		width: 40%;
+		margin-left: 30%;
+	}
+}
+
+@media (max-width: 900px) {
+
+	.shopButtonInside h1 {
+		text-align: center;
+		font-size: 12pt;
+		margin-top: 2%;
+	}
+
+}
